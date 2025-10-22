@@ -30,7 +30,7 @@ A command-line tool to export content models and data from Contentful spaces.
 node index.js
 
 # Or use npm scripts
-npm run export
+yarn export
 ```
 
 ### Export Options
@@ -38,11 +38,11 @@ npm run export
 ```bash
 # Export only content models (no content entries)
 node index.js --models-only
-npm run export:models
+yarn export:models
 
 # Export only content entries (no models)
 node index.js --content-only
-npm run export:content
+yarn export:content
 
 # Custom export directory
 node index.js --export-dir ./my-exports
@@ -113,7 +113,7 @@ The tool will create timestamped JSON files in your export directory:
 
 ## npm Scripts
 
-- `npm run export` - Basic export
-- `npm run export:models` - Export only content models
-- `npm run export:content` - Export only content entries  
-- `npm run help` - Show help information
+- `yarn export` - Basic export
+- `yarn export:models` - Export only content models
+- `yarn export:content` - Export only content entries  
+- `yarn help` - Show help information
