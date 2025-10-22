@@ -1,0 +1,23 @@
+{
+  "name": "contenful-export",
+  "version": "1.0.0",
+  "description": "CLI tool for exporting Contentful content models and data",
+  "main": "index.js",
+  "bin": {
+    "contentful-export-cli": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "export": "node index.js",
+    "export:models": "node index.js --models-only",
+    "export:content": "node index.js --content-only",
+    "help": "node index.js --help"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^14.0.1",
+    "contentful-export": "^7.21.92",
+    "dotenv": "^17.2.3"
+  }
+}
